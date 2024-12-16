@@ -4,20 +4,22 @@ This project implements a basic blockchain written in the C programming language
 
 ## Features
 
-Block Creation: Create blocks containing data, a hash, a previous block hash, and a timestamp.
+- Block Creation: Create blocks containing data, a hash, a previous block hash, and a timestamp.
 
-Hashing: SHA-256 hashing to ensure data integrity.
+- Hashing: SHA-256 hashing to ensure data integrity.
 
-Chain Validation: Basic validation to check the integrity of the blockchain.
+- Chain Validation: Basic validation to check the integrity of the blockchain.
 
-Simple Data Storage: Store arbitrary data in each block.
+- Simple Data Storage: Store arbitrary data in each block.
 
 ## Directory Structure
 
+```bash
 C-BlockChain/
 ├── src/
 │ └── main.c
 └── README.md
+```
 
 ## Dependencies
 
@@ -30,7 +32,7 @@ This project uses standard C libraries and requires OpenSSL for SHA-256 hashing.
 
 ## Tech Stack
 
-- **Language:** C
+- **Language:** C20
 - **Libraries:** Standard C libraries, OpenSSL (for SHA-256 hashing)
 - **Compiler:** GCC
 
@@ -42,10 +44,13 @@ To compile the project, use `gcc`:
 
 After compiling, run the executable:
 
+```
 ./blockchain
+```
 
-Sample Output
+## Sample Output
 
+```bash
 Block 0:
 Data: Genesis Block
 Hash: 5f4dcc3b5aa765d61d8327deb882cf99
@@ -57,28 +62,29 @@ Data: Block 1 Data
 Hash: 98f6bcd4621d373cade4e832627b4f6
 Previous Hash: 5f4dcc3b5aa765d61d8327deb882cf99
 Timestamp: 1627565492
+```
 
-Key Functions
+# Key Functions
 
-createBlock: Creates a new block with specified data.
+- CreateBlock: Creates a new block with specified data.
 
-calculateHash: Computes the SHA-256 hash of the block.
+- CalculateHash: Computes the SHA-256 hash of the block.
 
-addBlock: Adds a new block to the blockchain.
+- AddBlock: Adds a new block to the blockchain.
 
-validateChain: Checks the integrity of the blockchain.
+- ValidateChain: Checks the integrity of the blockchain.
 
-Future Enhancements
+## Future Enhancements
 
-Implement proof-of-work (PoW) for mining blocks.
+- Implement proof-of-work (PoW) for mining blocks.
 
-Add persistent storage for the blockchain.
+- Add persistent storage for the blockchain.
 
-Network support to enable decentralized blockchain nodes.
+- Network support to enable decentralized blockchain nodes.
 
 ## License
 
-This project is licensed under the MIT License([LICENSE]).
+This project is licensed under the MIT License, which can be found here -> [LICENSE](LICENSE.md)
 
 ## Disclaimer
 
