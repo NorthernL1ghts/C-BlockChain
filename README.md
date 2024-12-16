@@ -32,9 +32,16 @@ This project uses standard C libraries and requires OpenSSL for SHA-256 hashing.
 
 ## Tech Stack
 
-- **Language:** C20
+- **Language:** C
 - **Libraries:** Standard C libraries, OpenSSL (for SHA-256 hashing)
 - **Compiler:** GCC
+
+## Setup
+
+Two scripts are provided to check for and install GCC and Clang if they are not already installed. These scripts are located in the `Root` directory.
+
+- **Windows:** Run `Scripts/Win-GenerateProject.bat`
+- **Linux:** Run `Scripts/GenerateProject.sh`
 
 ## Compilation
 
