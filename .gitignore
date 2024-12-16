@@ -1,0 +1,21 @@
+# Binary directories
+bin/
+bin-int/
+build/
+
+# Solution and project files
+*.sln
+*.exe
+*.dll
+*.obj
+
+# User-specific files
+*.user
+
+# Visual Studio project files
+*.vcxproj
+*.vcxproj.filters
+
+# Visual Studio and Visual Studio Code directories
+.vs/
+.vscode/
